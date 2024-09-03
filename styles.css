@@ -1,1 +1,9 @@
-/*  your css code here. If applicable */
+form{
+	padding= 30px;
+}
+button{
+	border: none;
+	background-color: rgb;
+	border-radius:2px;
+	padding: 5px 8px;
+}
