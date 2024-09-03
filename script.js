@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const submitButton = document.getElemnetById("submitButton");
+const submitButton = document.getElemetById("submitButton");
 const data = { };
 function showAlert() {
 	event.preventDefult();
