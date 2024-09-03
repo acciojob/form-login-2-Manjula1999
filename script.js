@@ -6,13 +6,13 @@ function showAlert() {
 	data.firstName = document.getElementById("firstName").value;
 	date.lastName = document.getElementById("lastName").value;
 	data.phoneNumber= document.getElementById("phoneNumber").value;
-	data.Email = document.getElementById("Email").value;
+	data.email = document.getElementById("Email").value;
 
 alert( "First Name: " + data.firstName + 
 	  "\nLast Name: " + data.lastName + 
 	  "\nPhone Number: " + data.phoneNumber + 
-	  "\nEmail: " + data.Email ID
+	  "\nEmail: " + data.EmailID
 	 );
 }
 
-submitButton.addEventListenr("click", showAlert);
+submitButton.addEventListener("click", showAlert);
